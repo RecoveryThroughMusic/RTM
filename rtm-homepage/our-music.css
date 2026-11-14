@@ -1,0 +1,30 @@
+/* Our Music prototype only; shared styles and completed pages remain untouched. */
+.our-music-page .listening-opening{padding-top:clamp(55px,7vw,100px);padding-bottom:clamp(36px,4vw,60px)}
+.our-music-page .listening-opening h1{font-size:clamp(60px,8vw,112px);line-height:1;letter-spacing:-2px;color:var(--green);margin:22px 0}
+.our-music-page .listening-intro{font-size:clamp(16px,1.6vw,20px);margin:0;line-height:1.6}
+.our-music-page .listening-feature{background:var(--green);color:var(--paper);margin:0 6%;padding:clamp(30px,4.5vw,64px);display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:8%;align-items:end}
+.our-music-page .listening-number{font:12px/1.5 var(--sans);letter-spacing:2px;color:var(--ochre);margin:0 0 20px}
+.our-music-page .listening-feature .listening-number{color:#dac48b}
+.our-music-page .listening-feature h2{font-size:clamp(48px,6.5vw,88px);line-height:1.02;letter-spacing:-1.5px;max-width:620px}
+.our-music-page .listening-credit{font:clamp(24px,2.5vw,32px)/1.3 var(--serif);margin:0 0 32px}
+.our-music-page .listening-credit span{display:block;font:13px/1.6 var(--sans);margin-top:8px;letter-spacing:.3px}
+.our-music-page .listening-unavailable{font:13px/1.6 var(--sans);margin:0;color:#526053}
+.our-music-page .listening-unavailable span{display:block;font-size:11px;letter-spacing:.4px;margin-top:4px}
+.our-music-page .listening-feature .listening-unavailable{color:var(--paper);border-top:1px solid #f5f0e54d;padding-top:20px}
+.our-music-page .listening-feature .listening-unavailable span{color:#dac48b}
+.our-music-page .listening-collection{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:8%;row-gap:48px;padding-top:36px;padding-bottom:80px}
+.our-music-page .listening-track{min-width:0;border-top:1px solid #213d2f40;padding-top:24px;display:flex;flex-direction:column;align-items:stretch}
+.our-music-page .listening-track .listening-number{margin-bottom:12px}
+.our-music-page .listening-track h2{font-size:clamp(32px,3.5vw,47px);line-height:1.12;letter-spacing:-.6px;margin-bottom:28px;overflow-wrap:break-word}
+.our-music-page .listening-track audio{display:block;width:100%;max-width:100%;height:54px;margin-top:auto;accent-color:var(--green)}
+.our-music-page .listening-track .listening-unavailable{margin-top:auto;min-height:54px}
+.our-music-page audio:focus-visible{outline:3px solid var(--ochre);outline-offset:5px;border-radius:30px}
+@media(max-width:1100px){.our-music-page .listening-feature{margin-left:5%;margin-right:5%}}
+@media(max-width:760px){
+.our-music-page .listening-opening{padding-top:50px;padding-bottom:32px}
+.our-music-page .listening-opening h1{font-size:clamp(55px,12vw,76px);letter-spacing:-1.5px}
+.our-music-page .listening-feature{grid-template-columns:1fr;gap:32px;padding:32px 24px}
+.our-music-page .listening-feature h2{font-size:clamp(46px,10vw,65px)}
+.our-music-page .listening-credit{margin-bottom:24px}
+.our-music-page .listening-collection{grid-template-columns:1fr;row-gap:32px;padding-top:27px;padding-bottom:50px}
+}

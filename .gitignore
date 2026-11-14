@@ -1,0 +1,9 @@
+.DS_Store
+.openai/
+.wrangler/
+node_modules/
+.env
+.env.*
+rtm-homepage/dist/
+rtm-homepage/rtm-mobile-preview/
+rtm-homepage/assets/video/RTM-website.mp4
